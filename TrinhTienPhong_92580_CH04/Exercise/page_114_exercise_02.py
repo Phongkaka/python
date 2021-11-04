@@ -30,6 +30,6 @@ def swap(numberDecimal):
     print("The binary representation of", str(index), "is", bitString)
 
 
-element = [47, 127, 64, 9]
+element = [9]
 for decimal in element:
     swap(decimal)

@@ -1,7 +1,7 @@
 """
-Author: Trinh Tien Phong
-Date: 28/10/2021
-Program: Exercise_01_page_145.py
+Author: Trịnh Tiến Phong
+Date: 31/10/2021
+Program: page_145_exercise_01.py
 Problem:
     1.  Assume that the variable data refers to the list [5, 3, 7]. Write the values of the following expressions:
         a.  data[2]
@@ -23,6 +23,12 @@ Solution:
         g.  (5, 3, 7)
 """
 
-data = [10, 20, 40, 30]
-data[1] = 15
-print(data)
+data = [5, 3, 7]
+
+print("a. ", data[2])
+print("b. ", data[-1])
+print("c. ", len(data))
+print("d. ", data[0:2])
+print("e. ", 0 in data)
+print("f. ", data + [2, 10, 5])
+print("g. ", tuple(data))
